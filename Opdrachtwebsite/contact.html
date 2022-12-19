@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wink Academy</title>
+        <!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Thuis</a>
+            <a href="about.html">Over ons</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+          </div>
+
+          <form name="contact" method="POST" data-netlify="true" onsubmit="submit"
+     data-netlify-honeypot="bot-field">
+
+             
+             
+    
+                    
+                    <div class="row">
+    
+                        
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="name" class="">Your name</label>
+                                <input type="text" id="name" name="name" class="form-control" required="true">
+                            </div>
+                        </div>
+                        
+    
+                        
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="email" class="">Your email</label>
+                                <input type="text" id="email" name="email" class="form-control" required="true">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="phone">Enter your phone number:</label>
+                                <input type="tel" id="phone" name="phone" >
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="message">Your Age</label>
+                                <input type="number" id="age" name="message" rows="2" class="form-control md-textarea" required="true" min="10" max="150">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="birthday">Birthday:</label>
+                                <input type="date" id="birthday" name="birthday">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="radio" name="gender" value="male"> Male
+                                <input type="radio" name="gender" value="female"> Female
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="reset">
+
+                            </div>
+                        </div>
+
+                        <div class="form-example">
+                            <input type="submit" value="Submit">
+                          </div>
+
+                       
+                    
+                        
+                    </div>
+                        
+    
+                    
+                
+
+
+      </form>
+
+      <div class="footer">
+            
+        <div class="row">
+        Copyright © 2021 Wink Academy
+        </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "topnav";
+                }
+              }</script>
+    </body>
+     
+</html>
